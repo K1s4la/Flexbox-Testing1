@@ -8,9 +8,13 @@
     background-color:#5995DA;
     padding:20px 0;
     margin:5px 0px;
+    justify-content:center;
 }
 .menu{
     border:1px white solid;
     width:900px;
+    display:flex; 
+    justify-content:center;
+    gap:2em;
     
 }
