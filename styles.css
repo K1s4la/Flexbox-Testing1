@@ -1,0 +1,8 @@
+* {
+    padding:0px; margin:0px; 
+    box-sizing:content-box;
+}
+.menu-container{
+    display:flex;
+    
+}
