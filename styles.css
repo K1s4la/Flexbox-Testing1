@@ -7,16 +7,19 @@
     color:#fff;
     background-color:#5995DA;
     padding:20px 0;
-    margin:5px 0px;
+    margin:-5px 0px;
     justify-content:center;
+    
 }
+
 .menu{
-    border:1px white solid;
+    border:1px solid white;
     width:900px;
     display:flex; 
     justify-content:space-around;
     gap:1em;
 }
+
 .links{
     display:flex;
     justify-content: flex-end;
@@ -24,5 +27,19 @@
 }
 .sign{
     margin-left:50px;
-   
 }
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+    margin:-5px;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
