@@ -43,3 +43,39 @@
     justify-content: space-between;
     align-items: center;
   }
+  .social,.logo,.subscribe{
+    border:1px solid #5995DA;
+  }
+
+  .photo-grid-container {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  .photo-grid {
+   display:flex; 
+   flex-wrap:wrap;
+   justify-content: center;    
+    flex-direction: row;
+    align-items: center;
+   
+}
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+    
+  }
+  .first-item{
+    order: -1;
+  }
+  .last-item{
+    order: 1;
+  }
+  .subscribe,.logo{
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
